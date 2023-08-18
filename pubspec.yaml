@@ -1,15 +1,18 @@
 name: odoo_api_plus
 description: A new Flutter project.
-version: 0.0.1
-homepage:
+version: 0.1.0
+homepage: https://github.com/chandrabezzo/odoo_api_plus
+documentation: Odoo JSON RPC Connector library for Flutter allows you to connect with Odoo 8.0+. Authenticate, Read data, updating and creating data, JSON type controllers, custom model methods
 
 environment:
-  sdk: '>=3.1.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.0.0
+  uuid: ^3.0.0
 
 dev_dependencies:
   flutter_test:
