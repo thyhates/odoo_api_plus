@@ -9,7 +9,7 @@ import 'odoo_version.dart';
 abstract class OdooConnector {
   late Client client;
   final String serverURL;
-  final Map<String, String> headers;
+  final headers = <String, String>{};
   bool debugRPC;
   late OdooVersion odooVersion;
   List databases = [];
@@ -18,7 +18,6 @@ abstract class OdooConnector {
   OdooConnector({
     required this.serverURL,
     Client? client,
-    this.headers = const {},
     this.debugRPC = false,
     OdooVersion? odooVersion,
   }) {
