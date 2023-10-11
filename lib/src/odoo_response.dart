@@ -1,5 +1,5 @@
 class OdooResponse {
-  final Map<String, dynamic> result;
+  final Map<dynamic, dynamic> result;
   final int statusCode;
   final String sessionId;
 
