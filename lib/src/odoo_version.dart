@@ -2,7 +2,7 @@ import 'odoo_response.dart';
 
 class OdooVersion {
   final String? version;
-  final int? serverSerie;
+  final String? serverSerie;
   final int? protocolVersion;
   final dynamic major;
   final int? minor;
