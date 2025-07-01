@@ -38,7 +38,7 @@ class OdooVersion {
       minor: versionInfo[1],
       protocolVersion: result['protocol_version'],
       releaseLevel: versionInfo[3],
-      serial: versionInfo[4],
+      serial: versionInfo[4] is String ? versionInfo[4] : null,
       serverSerie: result['server_serie'],
       version: result['server_version'],
     );
